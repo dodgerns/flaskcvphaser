@@ -25,7 +25,7 @@ captureAndSendButton.addEventListener('click', async () => {
     const imageDataURL = canvas.toDataURL('image/jpeg');
 
     try {
-        const response = await fetch('http://localhost:5000/ship_cam', {
+        const response = await fetch('https://nikdirus.pythonanywhere.com/ship_cam', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

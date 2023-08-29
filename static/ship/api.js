@@ -1,6 +1,6 @@
 export class Api{
     constructor(){
-        this.urlImage = 'http://localhost:5000/ship_cam';
+        this.urlImage = 'https://nikdirus.pythonanywhere.com/ship_cam';
     }
     async sendImage(image){
         try {
